@@ -6,12 +6,10 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL =
-            "jdbc:mysql://taxiservicedb.ctunkkwyitos.eu-north-1.rds.amazonaws.com:3306/"
-                    + "taxi?serverTimezone=Europe/Kiev";
-    private static final String USERNAME = "tim";
-    private static final String PASSWORD = "2121105tim2121105";
-    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    private static final String URL = "ENTER YOUR URL HERE";
+    private static final String USERNAME = "ENTER YOUR USERNAME HERE";
+    private static final String PASSWORD = "ENTER YOUR PASSWORD HERE";
+    private static final String JDBC_DRIVER = "ENTER YOUR JDBC DRIVER HERE";
 
     static {
         try {
